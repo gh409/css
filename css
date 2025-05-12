@@ -1,0 +1,112 @@
+body { 
+  font-family: 'Tahoma','Open sans';
+  background: white;
+}
+
+h1 {
+  color:purple ;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.menu {
+  background-color: pink ;
+  overflow: auto;
+}
+  
+
+.menu ul {
+  text-align: center;
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
+
+
+.menu li {
+  display: inline-block;
+  text-align: center;
+}
+
+
+.menu li a {
+  display: inline-blook;
+  height: 21;
+  width: 152px;
+  color:#333333;
+  background-color: white ;
+  padding: 11px;
+  margin: 4px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 2px;
+}
+
+
+
+.menu li a:hover{
+  background-color: yellow ;
+}
+.main {
+  text-align: center;
+  background-color: antiquewhite;
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
+
+.main h2 {
+  overflow: auto;
+  margin-top: 41px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  padding: 11px;
+  background-color: white ;
+  color: pink;
+}
+
+.photos {
+  overflow: auto;
+  padding-top:21px;
+  padding-bottom: 40px;
+  text-align: center;
+  background-color:purple;
+}
+
+.photos img {
+  border-style:solid;
+  border-width:7px;
+  border-color:brown;
+  border-radius: 6px;
+  margin: 3px;
+  object-fit: cover;
+  object-position: top;
+}
+
+
+.photos h2{
+  color:red;
+  font-size: 28px;
+}
+
+
+
+.footer a{
+  display: inline-block;
+  height: auto;
+  width: auto;
+  color:brown ;
+  background-color: #f5f5f5;
+  padding: 11px;
+  margin: 5px;
+}
+
+
+a:hover {
+    color: yellow; 
+}
+#greeting {
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 50px;}
